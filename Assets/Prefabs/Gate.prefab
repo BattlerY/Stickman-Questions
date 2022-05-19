@@ -317,7 +317,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -410,10 +410,10 @@ MonoBehaviour:
   _fallVelocity: 5
   _answerEffect: {fileID: 0}
   _riddle:
-    rightAnswer: 
-    wrongAnswer: 
-    rebus: {fileID: 0}
-    points: 0
+    _rightAnswer: 
+    _wrongAnswer: 
+    _rebus: {fileID: 0}
+    _points: 0
 --- !u!65 &5210669985340813492
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -471,8 +471,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6703883136520620219}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: 6.7276, y: 1.1377, z: -0}
-  m_LocalScale: {x: 0.13296327, y: 1, z: 0.3423633}
+  m_LocalPosition: {x: 6.7276, y: 1.0037, z: 0.3}
+  m_LocalScale: {x: 0.15976866, y: 1, z: 0.3423633}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6703883135930622391}
@@ -494,7 +494,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6703883136520620219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -507,7 +507,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16dec52eecaa0c0449ede562856573f4, type: 2}
+  - {fileID: 2100000, guid: 4dd48e85a44b53c4b9303791b555b6b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -541,9 +541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97b97c4f725d8b48b33eb33d098cfd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _answer: {fileID: 6703883135930622390}
   _isRight: 0
   _points: 0
+  _answer: {fileID: 6703883135930622390}
 --- !u!65 &3534781789703586931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -796,8 +796,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6703883137774072769}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: 2.2527, y: 1.1377, z: 0}
-  m_LocalScale: {x: 0.13296327, y: 1, z: 0.33791465}
+  m_LocalPosition: {x: 2.2527, y: 0.98, z: 0.3}
+  m_LocalScale: {x: 0.16448887, y: 1, z: 0.33791465}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6703883136960793842}
@@ -819,7 +819,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6703883137774072769}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -832,7 +832,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 16dec52eecaa0c0449ede562856573f4, type: 2}
+  - {fileID: 2100000, guid: 4dd48e85a44b53c4b9303791b555b6b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -866,9 +866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97b97c4f725d8b48b33eb33d098cfd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _answer: {fileID: 6703883136960793853}
   _isRight: 0
   _points: 0
+  _answer: {fileID: 6703883136960793853}
 --- !u!65 &9142303892067955158
 BoxCollider:
   m_ObjectHideFlags: 0
